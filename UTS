@@ -1,0 +1,30 @@
+fun main() {
+   val total_belanja = 100000
+    
+   val diskon1 = 0.3*total_belanja
+   val diskon2 = 0.2*total_belanja
+   val diskon3 = 0.1*total_belanja
+    
+   val total_bayar1 = total_belanja-diskon1
+   val total_bayar2 = total_belanja-diskon2
+   val total_bayar3 = total_belanja-diskon3
+   
+    
+    if(total_belanja > 1000000){
+        println("Total belanja : "+total_belanja)
+        println("Selamat, Anda mendapat diskon 30%")
+        println ("Total bayar : "+ total_bayar1)
+    } else if (total_belanja  > 500000) {
+        println("Total belanja : "+total_belanja)
+        println("Selamat, Anda mendapat diskon 20%, senilai : Rp. "+diskon2 )
+        println ("Total bayar : "+ total_bayar2)
+    } else if (total_belanja >= 100000){
+        println("Total belanja : "+total_belanja)
+        println("Selamat, Anda mendapat diskon 10%, senilai : Rp. "+diskon3 )
+        println ("Total bayar : "+ total_bayar3)
+    } else {
+        println("Total belanja : "+total_belanja)
+        println("Maaf anda tidak mendapat diskon" )
+        println ("Total bayar : "+ total_belanja)
+    }
+    }
