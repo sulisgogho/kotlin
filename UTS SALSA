@@ -1,0 +1,74 @@
+fun main() {
+   var nama = ""
+   var lamakerja = ""
+   var jamkerja = 
+    
+   if (lamakerja <= "1 tahun"){
+       var gapok = 1486500 
+       var tunjangan = 250000 
+       
+       var total1 = gapok + tunjangan
+       
+       if(jamkerja > 173){
+           var lembur = (jamkerja - 173) * 20000
+           var total2 = gapok + tunjangan + lembur
+           
+           var gajiAkhir = total2 - (total2 * 0.005)
+           
+           
+       } else{
+           var gaji = total1 - (total1 * 0.005)
+           
+       }
+   } else if(lamakerja > "1 tahun" && lamakerja <= "2 tahun"){
+       var gapok = 1926000  
+       var tunjangan = 300000 
+       
+       var total1 = gapok + tunjangan
+       if(jamkerja > 173){
+           var lembur = (jamkerja - 173) * 20000
+           var total2 = gapok + tunjangan + lembur
+      
+           var gajiAkhir = total2 - (total2 * 0.005)
+           
+           
+       } else{
+           var gaji = total1 - (total1 * 0.005)
+           
+       }
+   } else if(lamakerja > "2 tahun" && lamakerja <= "3 tahun"){
+       var gapok = 2456700 
+       var tunjangan = 350000 
+       
+       var total1 = gapok + tunjangan 
+       
+       if(jamkerja > 173){
+           var lembur = (jamkerja - 173) * 20000 
+       	   var total2 = gapok + tunjangan + lembur
+     
+           var gajiAkhir = total2 - (total2 * 0.005)
+           
+           
+       } else{
+           var gaji = total1 - (total1 * 0.005)
+           
+       }
+   } else{
+       var gapok = 2899500
+       var tunjangan = 400000 
+       
+       var total1 = gapok + tunjangan
+      
+       if(jamkerja > 173){
+           var lembur = (jamkerja - 173) * 20000
+           var total2 = gapok + tunjangan + lembur
+           
+           var gajiAkhir = total2 - (total2 * 0.005)
+           
+           
+       } else{
+           var gaji = total1 - (total1 * 0.005)
+          
+       }
+   }
+}
