@@ -1,7 +1,7 @@
 fun main() {
-   var nama = ""
-   var lamakerja = ""
-   var jamkerja = 
+   var nama = "Andi"
+   var lamakerja = "1 tahun"
+   var jamkerja = 173
     
    if (lamakerja <= "1 tahun"){
        var gapok = 1486500 
@@ -15,10 +15,25 @@ fun main() {
            
            var gajiAkhir = total2 - (total2 * 0.005)
            
-           
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 1")
+           println("Gaji Pokok = " + gapok)
+       	   println("Tunjangan = " + tunjangan)
+           println("Jam Kerja = " + jamkerja)
+           println("Gaji Lembur = " + lembur) 
+           println("Gaji Kotor = " + total2)
+           println("Pajak = 0.5%")
+           println("Gaji Akhir anda adalah " + gajiAkhir)
        } else{
            var gaji = total1 - (total1 * 0.005)
-           
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 1")
+       	   println("Gaji Pokok = " + gapok)
+           println("Tunjangan = " + tunjangan)
+           println("Tidak ada lembur")
+           println("Gaji Kotor = " + total1)
+           println("Pajak = 0.5%")
+           println("Gaji akhir yang diterima adalah " + gaji)
        }
    } else if(lamakerja > "1 tahun" && lamakerja <= "2 tahun"){
        var gapok = 1926000  
@@ -31,10 +46,25 @@ fun main() {
       
            var gajiAkhir = total2 - (total2 * 0.005)
            
-           
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 2")
+           println("Gaji Pokok = " + gapok)
+       	   println("Tunjangan = " + tunjangan)
+           println("Jam Kerja = " + jamkerja)
+           println("Gaji Lembur = " + lembur)
+	   println("Gaji Kotor = " + total2)
+           println("Pajak = 0.5%")
+           println("Gaji Akhir anda adalah " + gajiAkhir)
        } else{
            var gaji = total1 - (total1 * 0.005)
-           
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 2")
+       	   println("Gaji Pokok = " + gapok)
+           println("Tunjangan = " + tunjangan)
+           println("Tidak ada lembur")
+	   println("Gaji Kotor = " + total1)
+           println("Pajak = 0.5%")
+           println("Gaji akhir yang diterima adalah " + gaji)
        }
    } else if(lamakerja > "2 tahun" && lamakerja <= "3 tahun"){
        var gapok = 2456700 
@@ -48,10 +78,25 @@ fun main() {
      
            var gajiAkhir = total2 - (total2 * 0.005)
            
-           
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 3")
+           println("Gaji Pokok = " + gapok)
+       	   println("Tunjangan = " + tunjangan)
+           println("Jam Kerja = " + jamkerja)
+           println("Gaji Lembur = " + lembur)
+           println("Gaji Kotor = " + total2)
+	   println("Pajak = 0.5%")
+           println("Gaji Akhir anda adalah " + gajiAkhir)
        } else{
            var gaji = total1 - (total1 * 0.005)
-           
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 3")
+       	   println("Gaji Pokok = " + gapok)
+           println("Tunjangan = " + tunjangan)
+           println("Tidak ada lembur")
+	   println("Gaji Kotor = " + total1)
+           println("Pajak = 0.5%")
+           println("Gaji akhir yang diterima adalah " + gaji)
        }
    } else{
        var gapok = 2899500
@@ -65,10 +110,25 @@ fun main() {
            
            var gajiAkhir = total2 - (total2 * 0.005)
            
-           
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 4")
+           println("Gaji Pokok = " + gapok)
+       	   println("Tunjangan = " + tunjangan)
+           println("Jam Kerja = " + jamkerja)
+           println("Gaji Lembur = " + lembur)
+	   println("Gaji Kotor = " + total2)
+           println("Pajak = 0.5%")
+           println("Gaji Akhir anda adalah " + gajiAkhir)
        } else{
            var gaji = total1 - (total1 * 0.005)
-          
-       }
-   }
+           println("Nama Karyawan = " + nama)
+           println("Golongan Karyawan = Golongan 4")
+       	   println("Gaji Pokok = " + gapok)
+           println("Tunjangan = " + tunjangan)
+           println("Tidak ada lembur")
+	   println("Gaji Kotor = " + total1)
+           println("Pajak = 0.5%")
+           println("Gaji akhir yang diterima adalah " + gaji)
+       }
+   }
 }
