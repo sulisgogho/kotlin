@@ -42,6 +42,8 @@ fun main() {
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
        println("Uang Lembur	: "+lembur)
        println("Gaji Akhir	: "+totalgaji)
        
