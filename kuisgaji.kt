@@ -1,7 +1,8 @@
+
 fun main() {
    var nama = "Nawwir"
    val golongan = 1
-   val jamkerja = 200
+   val jamkerja = 173
    val jamnormal = 173
    val lembur = 20000*(jamkerja-jamnormal)
    
@@ -12,23 +13,31 @@ fun main() {
        
        if(jamkerja>jamnormal){
        val pajak = (gaji+lembur)*0.005
-       val totalgaji = gaji+lembur+pajak
+       val totalgaji = gaji+lembur-pajak 
          
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
-       println("Uang Lembur	: "+lembur)
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
+       println("Gaji Lembur	: "+lembur)
+       println("Gaji Kotor	: "+(gaji+lembur))
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        
        } else {
        val pajak = gaji * 0.005
-       val totalgaji = gaji+pajak 
+       val totalgaji = gaji-pajak
            
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
-       println("Uang Lembur	: Tidak Lembur")
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
+       println("Gaji Lembur	: Tidak ada Lembur")
+       println("Gaji Kotor	: "+gaji)
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        }
    } else if (golongan == 3){
        val gp = 2456700
@@ -37,25 +46,31 @@ fun main() {
        
        if(jamkerja>jamnormal){
        val pajak = (gaji+lembur)*0.005
-       val totalgaji = gaji+lembur+pajak
+       val totalgaji = gaji+lembur-pajak 
          
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
        println("Gaji Pokok	: "+gp)
        println("Tunjangan	: "+tp)
-       println("Uang Lembur	: "+lembur)
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Lembur	: "+lembur)
+       println("Gaji Kotor	: "+(gaji+lembur))
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        
        } else {
        val pajak = gaji * 0.005
-       val totalgaji = gaji+pajak 
+       val totalgaji = gaji-pajak
            
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
-       println("Uang Lembur	: Tidak Lembur")
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
+       println("Gaji Lembur	: Tidak ada Lembur")
+       println("Gaji Kotor	: "+gaji)
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        }
    } else if(golongan == 2){
        val gp = 1926000
@@ -64,23 +79,31 @@ fun main() {
        
        if(jamkerja>jamnormal){
        val pajak = (gaji+lembur)*0.005
-       val totalgaji = gaji+lembur+pajak
+       val totalgaji = gaji+lembur-pajak 
          
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
-       println("Uang Lembur	: "+lembur)
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
+       println("Gaji Lembur	: "+lembur)
+       println("Gaji Kotor	: "+(gaji+lembur))
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        
        } else {
        val pajak = gaji * 0.005
-       val totalgaji = gaji+pajak 
+       val totalgaji = gaji-pajak
            
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
-       println("Uang Lembur	: Tidak Lembur")
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
+       println("Gaji Lembur	: Tidak ada Lembur")
+       println("Gaji Kotor	: "+gaji)
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        }
    } else if(golongan == 1){
        val gp = 1486500
@@ -89,23 +112,31 @@ fun main() {
        
        if(jamkerja>jamnormal){
        val pajak = (gaji+lembur)*0.005
-       val totalgaji = gaji+lembur+pajak
+       val totalgaji = gaji+lembur-pajak 
          
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
-       println("Uang Lembur	: "+lembur)
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
+       println("Gaji Lembur	: "+lembur)
+       println("Gaji Kotor	: "+(gaji+lembur))
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        
        } else {
        val pajak = gaji * 0.005
-       val totalgaji = gaji+pajak 
+       val totalgaji = gaji-pajak
            
        println("Nama		: "+nama)
        println("Golongan	: "+golongan)
        println("Jam Kerja	: "+jamkerja)
-       println("Uang Lembur	: Tidak Lembur")
-       println("Gaji Akhir	: "+totalgaji)
+       println("Gaji Pokok	: "+gp)
+       println("Tunjangan	: "+tp)
+       println("Gaji Lembur	: Tidak ada Lembur")
+       println("Gaji Kotor	: "+gaji)
+       println("Pajak 0.5%	: "+pajak)
+       println("Gaji Bersih	: "+totalgaji)
        }
    }
 }
