@@ -1,0 +1,58 @@
+fun main() {
+   var nama = "Nawwir"
+   val nik = 3513095203020001
+   val golongan = "D"
+   var uang_transport = 25000
+   var hari = 30
+    
+    if (golongan == "A"){
+       val gajipokok = 10000000
+       val uang_transport = 25000
+       var asuransi = gajipokok * 0.05
+       var gajibersih = (gajipokok-asuransi)
+       val tunjangan_transport = uang_transport * hari
+       val total_gaji = gajibersih +tunjangan_transport
+       val total_gaji1 = total_gaji.toInt()
+         
+       println("Nama		: "+nama)
+       println("NIK		: "+nik)
+       println("Golongan	: "+golongan)
+       println("Gaji Pokok	: "+gajipokok)
+       println("Asuransi	: "+asuransi)
+       println("Gaji Bersih	: "+gajibersih)
+       println("Transport	: "+tunjangan_transport)
+       println("Total Gaji	: "+total_gaji1)
+     
+    } else if (golongan == "B"){
+       val gajipokok = 2500000
+       val uang_transport = 25000
+       var asuransi = gajipokok * 0.005
+       var gajibersih = (gajipokok-asuransi)
+       val tunjangan_transport = uang_transport * hari
+       val total_gaji = gajibersih +tunjangan_transport
+       val total_gaji1 = total_gaji.toInt() 
+         
+       println("Nama		: "+nama)
+       println("NIK		: "+nik)
+       println("Golongan	: "+golongan)
+       println("Gaji Pokok	: "+gajipokok)
+       println("Asuransi	: "+asuransi)
+       println("Gaji Bersih	: "+gajibersih)
+       println("Transport	: "+tunjangan_transport)
+       println("Total Gaji	: "+total_gaji1)
+       
+    } else if (golongan == "C"){
+       val gajipokok = 2000000
+       val uang_transport = 25000
+       var gajibersih = (gajipokok)
+       val tunjangan_transport = uang_transport * hari
+       val total_gaji = gajibersih +tunjangan_transport
+         
+       println("Nama		: "+nama)
+       println("NIK		: "+nik)
+       println("Golongan	: "+golongan)
+       println("Transport	: "+tunjangan_transport)
+       println("Gaji Bersih	: "+gajibersih)
+       println("Total Gaji	: "+total_gaji)
+    } 
+}
